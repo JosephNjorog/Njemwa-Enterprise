@@ -1,0 +1,29 @@
+{
+    "name": "alger/POSlite",
+    "description": "POSlite inventory software",
+    "type": "project",
+    "require": {
+        "php": "5.3.7",
+        "picqer/php-barcode-generator": "^2.4",
+        "dompdf/dompdf": "0.8.2",
+        "php-http/curl-client": "1.7",
+        "guzzlehttp/psr7": "1.5",
+        "nesbot/carbon": "1.36",
+        "vlucas/phpdotenv": "3.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4"
+    },
+    "authors": [
+        {
+            "name": "alger makiputin",
+            "email": "hello@algermakiputin.dev"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

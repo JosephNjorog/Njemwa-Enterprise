@@ -1,0 +1,18 @@
+The software requires Xampp
+Step 1  - Go to https://www.apachefriends.org/download.html
+	- Download the version 7.3.0 / PHP 7.3.0 for your operating system
+	- After download run and follow the installation. Install xampp in Local Disk C to avoid problems
+
+After downloading xampp, Open xampp control panel and run Apache and Mysql.
+
+Step 2 
+Download the Files
+extract POSlite.zip and copy the extracted folder to C:/xampp/htdocs/POSlite
+
+1. Go to http://localhost/phpmyadmin
+2. Click import
+3 select file "database sql" and scroll down to bottom click "GO"
+4 To open the application type in your browser URL: localhost/POSlite
+
+username: admin
+pass: admin123
